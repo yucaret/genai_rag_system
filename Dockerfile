@@ -18,7 +18,10 @@ RUN pip show openai && \
 # Copy project
 COPY src/ ./src/
 COPY config/ ./config/
-COPY .env.template .env
+
+#Esta linea se elimina por que se ponrdran la variables en railaway
+#COPY .env.template .env
+
 COPY src/main.py main.py
 
 # Run app
