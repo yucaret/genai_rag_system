@@ -1,17 +1,15 @@
 import redis
 import json
 import os
+import pickle
+from typing import Any, Optional
 
 class RedisCache:
-
-# Para localhost
 #    def __init__(self):
-#        self.redis = redis.Redis(
-#            host=os.getenv("REDIS_HOST", "localhost"),
-#            port=int(os.getenv("REDIS_PORT", 6379)),
-#            db=int(os.getenv("REDIS_DB", 0)),
-#            decode_responses=True
-#        )
+#        redis_host = os.getenv("REDIS_HOST", "localhost")
+#        redis_port = int(os.getenv("REDIS_PORT", "6379"))
+#
+#        self.client = redis.Redis(host=redis_host, port=redis_port, db=0)
 
 # Para api publica
     def __init__(self):
@@ -27,11 +25,22 @@ class RedisCache:
                 decode_responses=True
             )
 
-    def get(self, key: str):
-        data = self.redis.get(key)
-        return json.loads(data) if data else None
+    def set(self, key: str, value: Any, ex: Optional[int] = None):
+        pickled = pickle.dumps(value)
+        self.client.set(key, pickled, ex=ex)
 
-    def set(self, key: str, value, expire_seconds: int = 86400):
-        self.redis.set(key, json.dumps(value), ex=expire_seconds)
+    def get(self, key: str) -> Optional[Any]:
+        value = self.client.get(key)
+        if value is None:
+            return None
+
+        try:
+            return pickle.loads(value)
+        except (pickle.UnpicklingError, TypeError):
+            try:
+                return json.loads(value)
+            except Exception:
+                return None
+
         
 redis_client = RedisCache()
