@@ -5,3 +5,931 @@
 2025-06-08 06:16:43,379 | INFO | genai | Added 25 chunks. Total in index: 25
 2025-06-08 06:17:03,892 | INFO | genai | Cache hit
 2025-06-08 06:25:42,645 | INFO | genai | GenAI RAG System is starting...
+2025-06-08 13:07:29,376 | INFO | genai | GenAI RAG System is starting...
+2025-06-08 13:08:44,756 | INFO | genai | Token-split into 51 chunks.
+2025-06-08 13:08:44,757 | INFO | genai | Total chunks created: 51
+2025-06-08 13:08:46,058 | INFO | genai | Added 51 chunks. Total in index: 51
+2025-06-08 13:09:25,575 | INFO | genai | VectorDB hit
+2025-06-08 13:09:50,748 | INFO | genai | VectorDB hit
+2025-06-12 02:09:21,208 | INFO | genai | GenAI RAG System is starting...
+2025-06-12 02:13:12,596 | INFO | genai | Token-split into 25 chunks.
+2025-06-12 02:13:12,598 | INFO | genai | Total chunks created: 25
+2025-06-12 02:13:13,562 | INFO | genai | Added 25 chunks. Total in index: 25
+2025-06-12 02:14:12,472 | INFO | genai | VectorDB hit
+2025-06-12 02:15:10,125 | INFO | genai | VectorDB hit
+2025-06-12 02:16:08,173 | INFO | genai | VectorDB hit
+2025-06-12 02:19:47,780 | INFO | genai | VectorDB hit
+2025-06-12 02:20:57,255 | INFO | genai | VectorDB hit
+2025-06-12 02:30:51,263 | INFO | genai | Cache hit
+2025-06-14 16:22:21,326 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:23:09,594 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:28:46,395 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:29:28,070 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:29:42,826 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:29:43,935 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 16:29:43,940 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:29:44,702 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 16:29:44,704 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 16:29:45,283 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 16:29:45,285 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:29:45,607 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 16:34:53,842 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:35:14,155 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:35:14,162 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 16:35:14,164 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:35:14,167 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 16:35:14,168 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 16:35:14,171 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 16:35:14,172 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:35:14,175 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 16:38:42,407 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:38:57,155 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:38:57,162 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 16:38:57,164 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:38:57,166 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 16:38:57,168 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 16:38:57,172 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 16:38:57,174 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:38:57,179 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 16:47:48,746 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:48:03,888 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:48:03,895 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 16:48:03,897 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:48:03,900 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 16:48:03,901 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 16:48:03,904 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 16:48:03,905 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:48:03,907 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 16:51:35,798 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:53:11,625 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:53:11,632 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 16:53:11,636 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:53:11,640 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 16:53:11,642 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 16:53:11,648 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 16:53:11,650 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:53:11,653 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 16:57:48,199 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 16:58:00,997 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 16:58:01,002 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 16:58:01,003 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:58:01,006 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 16:58:01,006 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 16:58:01,009 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 16:58:01,010 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 16:58:01,012 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 17:05:11,187 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 17:05:27,540 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 17:05:27,546 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 17:05:27,549 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 17:05:27,552 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 17:05:27,553 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 17:05:27,559 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 17:05:27,560 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 17:05:27,563 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 17:07:52,913 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 17:10:56,255 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 17:11:08,205 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 17:11:08,212 | INFO | genai | Added 5 chunks. Total in index: 5
+2025-06-14 17:11:08,215 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 17:11:08,216 | INFO | genai | Added 3 chunks. Total in index: 8
+2025-06-14 17:11:08,217 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 17:11:08,221 | INFO | genai | Added 4 chunks. Total in index: 12
+2025-06-14 17:11:08,222 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 17:11:08,224 | INFO | genai | Added 3 chunks. Total in index: 15
+2025-06-14 17:13:00,853 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 17:13:23,394 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 17:13:24,471 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 17:13:24,473 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 17:13:25,293 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 17:13:25,298 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 17:13:25,833 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 17:13:25,835 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 17:13:26,207 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 17:13:26,210 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 17:13:26,724 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 17:13:33,806 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 17:13:33,810 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 17:13:33,811 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 17:13:33,812 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 17:13:33,813 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 17:13:33,816 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 17:13:33,816 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 17:13:33,818 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:00:09,595 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:00:28,732 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:00:28,740 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:00:28,742 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:00:28,749 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:00:28,751 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:00:28,758 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:00:28,759 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:00:28,765 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:00:28,767 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:00:28,777 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:00:35,923 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:00:35,927 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:00:35,928 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:00:35,930 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:00:35,931 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:00:35,933 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:00:35,934 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:00:35,935 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:03:43,553 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:04:01,511 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:04:01,518 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:04:01,520 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:04:01,526 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:04:01,530 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:04:01,536 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:04:01,538 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:04:01,543 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:04:01,546 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:04:01,552 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:04:09,862 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:04:09,866 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:04:09,868 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:04:09,870 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:04:09,872 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:04:09,874 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:04:09,875 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:04:09,877 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:06:17,378 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:08:56,497 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:08:56,509 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:08:56,511 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:08:56,528 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:08:56,530 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:08:56,542 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:08:56,544 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:08:56,552 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:08:56,555 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:08:56,564 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:09:05,462 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:09:05,466 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:09:05,467 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:09:05,469 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:09:05,470 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:09:05,473 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:09:05,474 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:09:05,476 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:11:26,893 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:11:40,378 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:11:40,387 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:11:40,388 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:11:40,394 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:11:40,396 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:11:40,402 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:11:40,404 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:11:40,410 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:11:40,412 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:11:40,418 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:11:47,255 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:11:47,258 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:11:47,259 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:11:47,262 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:11:47,263 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:11:47,266 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:11:47,267 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:11:47,271 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:14:13,652 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:14:43,824 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:14:43,834 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:14:43,836 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:14:43,842 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:14:43,844 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:14:43,857 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:14:43,860 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:14:43,870 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:14:43,873 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:14:43,882 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:14:51,223 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:14:51,226 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:14:51,227 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:14:51,230 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:14:51,231 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:14:51,234 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:14:51,235 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:14:51,238 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:16:47,295 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:17:11,287 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:17:11,295 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:17:11,296 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:17:11,302 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:17:11,303 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:17:11,310 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:17:11,314 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:17:11,322 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:17:11,324 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:17:11,330 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:17:17,927 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:17:17,932 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:17:17,933 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:17:17,936 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:17:17,937 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:17:17,942 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:17:17,943 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:17:17,946 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:25:27,448 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:25:41,420 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:25:41,428 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:25:41,430 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:25:41,437 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:25:41,438 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:25:41,444 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:25:41,446 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:25:41,452 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:25:41,454 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:25:41,461 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:25:48,350 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:25:48,354 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:25:48,355 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:25:48,357 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:25:48,358 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:25:48,360 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:25:48,361 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:25:48,364 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:25:53,836 | INFO | genai | Vector store is empty.
+2025-06-14 19:34:51,476 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:35:17,514 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:35:17,522 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:35:17,526 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:35:17,532 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:35:17,536 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:35:17,544 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:35:17,546 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:35:17,553 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:35:17,555 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:35:17,562 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:35:30,665 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:35:30,669 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:35:30,670 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:35:30,672 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:35:30,673 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:35:30,676 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:35:30,677 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:35:30,679 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:35:39,699 | ERROR | genai | Error in RAG chain: list index out of range
+Traceback (most recent call last):
+  File "/app/src/app/infrastructure/llm/chains.py", line 63, in run
+    chunks = self.vector_store.search(query_embedding_np, top_k=50)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/app/infrastructure/vector_store/faiss.py", line 36, in search
+    doc = self.documents[idx]
+          ~~~~~~~~~~~~~~^^^^^
+IndexError: list index out of range
+2025-06-14 19:40:20,847 | INFO | genai | GenAI RAG System is starting...
+2025-06-14 19:40:35,348 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:40:35,355 | INFO | genai | Added 11 chunks. Total in index: 11
+2025-06-14 19:40:35,359 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:40:35,366 | INFO | genai | Added 10 chunks. Total in index: 21
+2025-06-14 19:40:35,368 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:40:35,374 | INFO | genai | Added 10 chunks. Total in index: 31
+2025-06-14 19:40:35,377 | INFO | genai | Token-split into 10 chunks.
+2025-06-14 19:40:35,383 | INFO | genai | Added 10 chunks. Total in index: 41
+2025-06-14 19:40:35,386 | INFO | genai | Token-split into 11 chunks.
+2025-06-14 19:40:35,393 | INFO | genai | Added 11 chunks. Total in index: 52
+2025-06-14 19:40:41,755 | INFO | genai | Token-split into 5 chunks.
+2025-06-14 19:40:41,759 | INFO | genai | Added 5 chunks. Total in index: 57
+2025-06-14 19:40:41,760 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:40:41,763 | INFO | genai | Added 3 chunks. Total in index: 60
+2025-06-14 19:40:41,763 | INFO | genai | Token-split into 4 chunks.
+2025-06-14 19:40:41,766 | INFO | genai | Added 4 chunks. Total in index: 64
+2025-06-14 19:40:41,767 | INFO | genai | Token-split into 3 chunks.
+2025-06-14 19:40:41,769 | INFO | genai | Added 3 chunks. Total in index: 67
+2025-06-14 19:40:48,872 | ERROR | genai | Error in RAG chain: No documents in vector store
+Traceback (most recent call last):
+  File "/app/src/app/infrastructure/llm/chains.py", line 71, in run
+    chunks = self.vector_store.search(query_embedding_np, top_k=50)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/src/app/infrastructure/vector_store/faiss.py", line 34, in search
+    raise ValueError("No documents in vector store")
+ValueError: No documents in vector store
+2025-06-15 00:15:09,550 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:15:23,397 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:15:23,404 | INFO | genai | Added 11 documents to vector store
+2025-06-15 00:15:23,405 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:23,406 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef with 11 chunks
+2025-06-15 00:15:23,407 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:15:23,416 | INFO | genai | Added 10 documents to vector store
+2025-06-15 00:15:23,419 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:23,420 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef with 10 chunks
+2025-06-15 00:15:23,422 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:15:23,432 | INFO | genai | Added 10 documents to vector store
+2025-06-15 00:15:23,433 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:23,433 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef with 10 chunks
+2025-06-15 00:15:23,436 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:15:23,445 | INFO | genai | Added 10 documents to vector store
+2025-06-15 00:15:23,447 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:23,448 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef with 10 chunks
+2025-06-15 00:15:23,450 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:15:23,457 | INFO | genai | Added 11 documents to vector store
+2025-06-15 00:15:23,458 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:23,458 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef with 11 chunks
+2025-06-15 00:15:33,614 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 00:15:33,618 | INFO | genai | Added 5 documents to vector store
+2025-06-15 00:15:33,619 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:33,619 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables with 5 chunks
+2025-06-15 00:15:33,620 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 00:15:33,622 | INFO | genai | Added 3 documents to vector store
+2025-06-15 00:15:33,622 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:33,623 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables with 3 chunks
+2025-06-15 00:15:33,623 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 00:15:33,626 | INFO | genai | Added 4 documents to vector store
+2025-06-15 00:15:33,626 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:33,627 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables with 4 chunks
+2025-06-15 00:15:33,627 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 00:15:33,629 | INFO | genai | Added 3 documents to vector store
+2025-06-15 00:15:33,630 | INFO | genai | Saved FAISS index to faiss_index.bin
+2025-06-15 00:15:33,630 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables with 3 chunks
+2025-06-15 00:15:49,988 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:22:24,811 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:22:42,806 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:22:42,814 | ERROR | genai | Failed to ingest document 4986143-ds320_2023ef: 
+2025-06-15 00:26:00,474 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:26:13,011 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:26:13,021 | ERROR | genai | Failed to ingest document 4986143-ds320_2023ef: 'FaissStore' object has no attribute '_persist_data'
+2025-06-15 00:28:37,394 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:28:46,712 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:28:46,720 | ERROR | genai | Failed to ingest document: 'FaissStore' object has no attribute '_persist_data'
+2025-06-15 00:33:17,333 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:33:26,286 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:33:26,309 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 00:33:26,310 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 00:33:26,311 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:33:26,313 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:33:26,320 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 00:33:26,320 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 00:33:26,320 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:33:26,322 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:33:26,329 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 00:33:26,329 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 00:33:26,330 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:33:26,332 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:33:26,338 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 00:33:26,339 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 00:33:26,339 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:33:26,341 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:33:26,348 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 00:33:26,350 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 00:33:26,350 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:36:12,706 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:37:21,668 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:37:49,085 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:38:08,506 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 00:38:08,512 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 00:38:08,513 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 00:38:08,513 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:38:08,514 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 00:38:08,517 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 00:38:08,517 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 00:38:08,518 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:38:08,519 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 00:38:08,522 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 00:38:08,523 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 00:38:08,523 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:38:08,524 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 00:38:08,528 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 00:38:08,529 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 00:38:08,529 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:38:15,193 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:38:26,620 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:39:29,261 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:39:43,517 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:39:43,524 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 00:39:43,525 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 00:39:43,525 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:39:43,527 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:39:43,534 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 00:39:43,537 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 00:39:43,537 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:39:43,539 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:39:43,548 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 00:39:43,549 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 00:39:43,549 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:39:43,551 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:39:43,558 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 00:39:43,559 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 00:39:43,559 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:39:43,561 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:39:43,568 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 00:39:43,569 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 00:39:43,569 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:41:14,590 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:41:29,870 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:41:29,878 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 00:41:29,879 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 00:41:29,879 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:41:29,882 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:41:29,894 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 00:41:29,895 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 00:41:29,895 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:41:29,897 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:41:29,905 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 00:41:29,905 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 00:41:29,906 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:41:29,907 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:41:29,914 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 00:41:29,914 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 00:41:29,915 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:41:29,916 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:41:29,923 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 00:41:29,923 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 00:41:29,924 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:54:23,836 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:54:44,902 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:54:44,909 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 00:54:44,912 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 00:54:44,912 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:54:44,914 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:54:44,920 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 00:54:44,921 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 00:54:44,922 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:54:44,924 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:54:44,932 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 00:54:44,935 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 00:54:44,939 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:54:44,940 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:54:44,947 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 00:54:44,948 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 00:54:44,948 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:54:44,950 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:54:44,957 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 00:54:44,957 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 00:54:44,958 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:56:23,112 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 00:57:58,429 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 00:58:26,956 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:58:26,964 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 00:58:26,965 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 00:58:26,966 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:58:26,967 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:58:26,974 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 00:58:26,975 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 00:58:26,976 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:58:26,977 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:58:26,985 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 00:58:26,985 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 00:58:26,986 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:58:26,988 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 00:58:26,994 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 00:58:26,995 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 00:58:26,996 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:58:26,997 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 00:58:27,005 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 00:58:27,005 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 00:58:27,006 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 00:58:57,268 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 00:58:57,273 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 00:58:57,274 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 00:58:57,275 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:58:57,276 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 00:58:57,279 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 00:58:57,279 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 00:58:57,279 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:58:57,280 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 00:58:57,283 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 00:58:57,283 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 00:58:57,283 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:58:57,284 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 00:58:57,287 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 00:58:57,287 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 00:58:57,288 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 00:59:22,369 | ERROR | genai | Failed to cache results: RedisCache.set() got an unexpected keyword argument 'ex'
+2025-06-15 01:06:42,117 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 01:07:14,937 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:07:14,947 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 01:07:14,949 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 01:07:14,950 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:07:14,951 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:07:14,962 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 01:07:14,963 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 01:07:14,964 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:07:14,965 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:07:14,974 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 01:07:14,974 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 01:07:14,975 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:07:14,977 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:07:14,983 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 01:07:14,984 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 01:07:14,985 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:07:14,988 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:07:14,995 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 01:07:14,996 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 01:07:14,996 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:07:30,238 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 01:07:30,242 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 01:07:30,243 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 01:07:30,243 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:07:30,248 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:07:30,252 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 01:07:30,252 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 01:07:30,253 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:07:30,254 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 01:07:30,257 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 01:07:30,257 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 01:07:30,258 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:07:30,259 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:07:30,262 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 01:07:30,263 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 01:07:30,263 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:18:06,646 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 01:18:25,665 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:18:25,674 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 01:18:25,677 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 01:18:25,680 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:18:25,683 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:18:25,693 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 01:18:25,694 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 01:18:25,695 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:18:25,698 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:18:25,706 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 01:18:25,707 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 01:18:25,708 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:18:25,710 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:18:25,718 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 01:18:25,719 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 01:18:25,720 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:18:25,721 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:18:25,728 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 01:18:25,729 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 01:18:25,730 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:18:34,088 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 01:18:34,093 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 01:18:34,093 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 01:18:34,094 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:18:34,095 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:18:34,103 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 01:18:34,104 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 01:18:34,104 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:18:34,105 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 01:18:34,112 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 01:18:34,112 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 01:18:34,113 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:18:34,114 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:18:34,119 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 01:18:34,119 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 01:18:34,120 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:18:52,100 | INFO | genai | Using cached results for query: Explicame tributo interno
+2025-06-15 01:22:47,748 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 01:23:06,715 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:23:06,723 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 01:23:06,724 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 01:23:06,725 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:23:06,728 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:23:06,736 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 01:23:06,738 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 01:23:06,739 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:23:06,740 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:23:06,747 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 01:23:06,748 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 01:23:06,748 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:23:06,750 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:23:06,756 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 01:23:06,757 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 01:23:06,757 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:23:06,759 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:23:06,766 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 01:23:06,766 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 01:23:06,766 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:23:17,006 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 01:23:17,010 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 01:23:17,010 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 01:23:17,010 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:23:17,011 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:23:17,014 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 01:23:17,015 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 01:23:17,015 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:23:17,016 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 01:23:17,019 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 01:23:17,020 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 01:23:17,020 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:23:17,021 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:23:17,025 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 01:23:17,025 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 01:23:17,026 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:23:24,964 | INFO | genai | Using cached results for query: Explicame tributo interno
+2025-06-15 01:24:44,025 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 01:24:58,519 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:24:58,529 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 01:24:58,531 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 01:24:58,532 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:24:58,538 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:24:58,547 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 01:24:58,547 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 01:24:58,548 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:24:58,552 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:24:58,560 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 01:24:58,561 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 01:24:58,561 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:24:58,562 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 01:24:58,569 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 01:24:58,569 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 01:24:58,570 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:24:58,572 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 01:24:58,579 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 01:24:58,580 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 01:24:58,580 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 01:25:05,509 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 01:25:05,514 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 01:25:05,514 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 01:25:05,514 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:25:05,515 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:25:05,523 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 01:25:05,524 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 01:25:05,525 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:25:05,526 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 01:25:05,529 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 01:25:05,530 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 01:25:05,530 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:25:05,530 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 01:25:05,533 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 01:25:05,534 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 01:25:05,534 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 01:25:15,674 | INFO | genai | Using cached results for query: Explicame tributo interno
+2025-06-15 02:06:29,078 | INFO | genai | Token-split into 2 chunks.
+2025-06-15 02:06:29,736 | INFO | genai | Persisted FAISS index and 69 documents to disk
+2025-06-15 02:06:29,738 | INFO | genai | Added 2 documents (total: 69)
+2025-06-15 02:06:29,740 | INFO | genai | Successfully ingested document JUAN PABLOHERNANDEZ PALACIOS-M1749604310715
+2025-06-15 02:07:13,475 | INFO | genai | Using cached results for query: dime la reservacion de hotel por favor
+2025-06-15 02:16:39,774 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 02:16:57,596 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 02:16:57,603 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 02:16:57,604 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 02:16:57,604 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:16:57,606 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:16:57,614 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 02:16:57,615 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 02:16:57,616 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:16:57,620 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:16:57,629 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 02:16:57,630 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 02:16:57,630 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:16:57,632 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:16:57,640 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 02:16:57,641 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 02:16:57,641 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:16:57,643 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 02:16:57,650 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 02:16:57,651 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 02:16:57,651 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:17:05,169 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 02:17:05,174 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 02:17:05,174 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 02:17:05,174 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:17:05,175 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 02:17:05,183 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 02:17:05,183 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 02:17:05,184 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:17:05,184 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 02:17:05,188 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 02:17:05,189 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 02:17:05,189 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:17:05,190 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 02:17:05,193 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 02:17:05,194 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 02:17:05,194 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:17:15,567 | INFO | genai | Token-split into 2 chunks.
+2025-06-15 02:17:15,569 | INFO | genai | Persisted FAISS index and 69 documents to disk
+2025-06-15 02:17:15,570 | INFO | genai | Added 2 documents (total: 69)
+2025-06-15 02:17:15,570 | INFO | genai | Successfully ingested document JUAN PABLOHERNANDEZ PALACIOS-M1749604310715
+2025-06-15 02:17:21,302 | INFO | genai | Using cached results for query: que dice el documento JUAN PABLOHERNANDEZ
+2025-06-15 02:23:47,921 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 02:24:02,279 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 02:24:02,290 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 02:24:02,292 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 02:24:02,293 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:24:02,297 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:02,300 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:24:02,315 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 02:24:02,316 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 02:24:02,317 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:24:02,318 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:02,322 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:24:02,333 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 02:24:02,333 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 02:24:02,334 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:24:02,335 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:02,338 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:24:02,349 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 02:24:02,350 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 02:24:02,350 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:24:02,351 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:02,352 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 02:24:02,361 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 02:24:02,362 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 02:24:02,362 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:24:02,363 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:09,430 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 02:24:09,435 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 02:24:09,435 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 02:24:09,436 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:24:09,436 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:09,437 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 02:24:09,444 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 02:24:09,444 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 02:24:09,445 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:24:09,445 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:09,446 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 02:24:09,449 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 02:24:09,449 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 02:24:09,450 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:24:09,450 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:09,451 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 02:24:09,455 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 02:24:09,455 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 02:24:09,455 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:24:09,456 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:24:17,706 | INFO | genai | Token-split into 2 chunks.
+2025-06-15 02:24:17,708 | INFO | genai | Persisted FAISS index and 69 documents to disk
+2025-06-15 02:24:17,709 | INFO | genai | Added 2 documents (total: 69)
+2025-06-15 02:24:17,709 | INFO | genai | Successfully ingested document JUAN PABLOHERNANDEZ PALACIOS-M1749604310715
+2025-06-15 02:24:17,710 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:28:52,454 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 02:29:23,737 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 02:29:23,744 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 02:29:23,745 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 02:29:23,746 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:29:23,747 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:23,749 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:29:23,759 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 02:29:23,761 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 02:29:23,761 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:29:23,762 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:23,764 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:29:23,772 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 02:29:23,773 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 02:29:23,773 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:29:23,774 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:23,775 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 02:29:23,783 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 02:29:23,784 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 02:29:23,784 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:29:23,785 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:23,787 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 02:29:23,794 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 02:29:23,795 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 02:29:23,795 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 02:29:23,796 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:30,061 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 02:29:30,066 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 02:29:30,066 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 02:29:30,067 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:29:30,067 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:30,068 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 02:29:30,070 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 02:29:30,071 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 02:29:30,071 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:29:30,071 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:30,072 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 02:29:30,075 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 02:29:30,075 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 02:29:30,076 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:29:30,076 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:30,077 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 02:29:30,080 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 02:29:30,080 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 02:29:30,081 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 02:29:30,081 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 02:29:40,153 | INFO | genai | Token-split into 2 chunks.
+2025-06-15 02:29:40,155 | INFO | genai | Persisted FAISS index and 69 documents to disk
+2025-06-15 02:29:40,155 | INFO | genai | Added 2 documents (total: 69)
+2025-06-15 02:29:40,155 | INFO | genai | Successfully ingested document JUAN PABLOHERNANDEZ PALACIOS-M1749604310715
+2025-06-15 02:29:40,156 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:14:33,116 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:15:53,263 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:16:50,104 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:19:04,868 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:20:03,023 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:20:56,281 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 03:27:53,926 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:28:00,489 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 03:35:45,857 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:36:01,481 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 03:36:01,490 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 03:36:01,491 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 03:36:01,492 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:36:01,495 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:01,497 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 03:36:01,508 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 03:36:01,508 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 03:36:01,509 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:36:01,510 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:01,511 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 03:36:01,519 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 03:36:01,519 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 03:36:01,519 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:36:01,520 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:01,521 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 03:36:01,528 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 03:36:01,528 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 03:36:01,529 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:36:01,529 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:01,531 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 03:36:01,539 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 03:36:01,539 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 03:36:01,539 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:36:01,540 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:08,715 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 03:36:08,723 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 03:36:08,723 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 03:36:08,725 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:36:08,726 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:08,727 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 03:36:08,730 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 03:36:08,730 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 03:36:08,731 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:36:08,731 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:08,732 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 03:36:08,736 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 03:36:08,736 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 03:36:08,736 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:36:08,737 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:08,738 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 03:36:08,741 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 03:36:08,741 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 03:36:08,742 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:36:08,743 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:36:16,623 | INFO | genai | Token-split into 2 chunks.
+2025-06-15 03:36:16,625 | INFO | genai | Persisted FAISS index and 69 documents to disk
+2025-06-15 03:36:16,625 | INFO | genai | Added 2 documents (total: 69)
+2025-06-15 03:36:16,626 | INFO | genai | Successfully ingested document JUAN PABLOHERNANDEZ PALACIOS-M1749604310715
+2025-06-15 03:36:16,627 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:38:45,502 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 03:38:53,567 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 03:39:17,549 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 03:39:17,559 | INFO | genai | Persisted FAISS index and 11 documents to disk
+2025-06-15 03:39:17,560 | INFO | genai | Added 11 documents (total: 11)
+2025-06-15 03:39:17,560 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:39:17,561 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:17,564 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 03:39:17,572 | INFO | genai | Persisted FAISS index and 21 documents to disk
+2025-06-15 03:39:17,573 | INFO | genai | Added 10 documents (total: 21)
+2025-06-15 03:39:17,574 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:39:17,575 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:17,576 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 03:39:17,585 | INFO | genai | Persisted FAISS index and 31 documents to disk
+2025-06-15 03:39:17,586 | INFO | genai | Added 10 documents (total: 31)
+2025-06-15 03:39:17,586 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:39:17,587 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:17,589 | INFO | genai | Token-split into 10 chunks.
+2025-06-15 03:39:17,602 | INFO | genai | Persisted FAISS index and 41 documents to disk
+2025-06-15 03:39:17,603 | INFO | genai | Added 10 documents (total: 41)
+2025-06-15 03:39:17,604 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:39:17,605 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:17,608 | INFO | genai | Token-split into 11 chunks.
+2025-06-15 03:39:17,619 | INFO | genai | Persisted FAISS index and 52 documents to disk
+2025-06-15 03:39:17,620 | INFO | genai | Added 11 documents (total: 52)
+2025-06-15 03:39:17,621 | INFO | genai | Successfully ingested document 4986143-ds320_2023ef
+2025-06-15 03:39:17,621 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:26,251 | INFO | genai | Token-split into 5 chunks.
+2025-06-15 03:39:26,255 | INFO | genai | Persisted FAISS index and 57 documents to disk
+2025-06-15 03:39:26,255 | INFO | genai | Added 5 documents (total: 57)
+2025-06-15 03:39:26,256 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:39:26,256 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:26,257 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 03:39:26,264 | INFO | genai | Persisted FAISS index and 60 documents to disk
+2025-06-15 03:39:26,264 | INFO | genai | Added 3 documents (total: 60)
+2025-06-15 03:39:26,264 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:39:26,265 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:26,266 | INFO | genai | Token-split into 4 chunks.
+2025-06-15 03:39:26,270 | INFO | genai | Persisted FAISS index and 64 documents to disk
+2025-06-15 03:39:26,270 | INFO | genai | Added 4 documents (total: 64)
+2025-06-15 03:39:26,270 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:39:26,271 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:26,272 | INFO | genai | Token-split into 3 chunks.
+2025-06-15 03:39:26,275 | INFO | genai | Persisted FAISS index and 67 documents to disk
+2025-06-15 03:39:26,276 | INFO | genai | Added 3 documents (total: 67)
+2025-06-15 03:39:26,276 | INFO | genai | Successfully ingested document 4986143-anexo-i-metologia-para-la-asignacion-del-perfil-de-cumplimiento-y-ponderacion-de-las-variables
+2025-06-15 03:39:26,276 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 03:39:34,942 | INFO | genai | Token-split into 2 chunks.
+2025-06-15 03:39:34,944 | INFO | genai | Persisted FAISS index and 69 documents to disk
+2025-06-15 03:39:34,944 | INFO | genai | Added 2 documents (total: 69)
+2025-06-15 03:39:34,944 | INFO | genai | Successfully ingested document JUAN PABLOHERNANDEZ PALACIOS-M1749604310715
+2025-06-15 03:39:34,945 | INFO | genai | Cache invalidated after ingestion
+2025-06-15 04:16:36,921 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 04:19:32,164 | INFO | genai | GenAI RAG System is starting...
+2025-06-15 04:19:36,437 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 04:19:57,803 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 04:57:15,104 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:33:05,734 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:43:41,851 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:46:04,489 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:47:37,636 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:47:48,549 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:49:14,121 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:52:05,160 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 15:52:17,296 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:01:27,064 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:01:36,966 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:02:29,113 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:02:43,073 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:02:54,344 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:03:04,960 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:06:26,106 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:09:10,929 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:09:19,181 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:09:48,363 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:11:45,599 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:12:10,022 | ERROR | genai | Vector store is empty - no documents to search
+2025-06-15 16:15:25,385 | ERROR | genai | Vector store is empty - no documents to search
