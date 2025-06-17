@@ -16,16 +16,20 @@ class RedisCache:
         redis_url = os.getenv("REDIS_URL")
 
         if redis_url:
-            self.client = redis.from_url(redis_url#,
-            #decode_responses=True
-            )
+            #self.client = redis.from_url(redis_url, decode_responses=True)
+            self.client = redis.from_url(redis_url)
         else:
+            #self.client = redis.Redis(
+            #    host=os.getenv("REDIS_HOST", "localhost"),
+            #    port=int(os.getenv("REDIS_PORT", 6379)),
+            #    db=int(os.getenv("REDIS_DB", 0)),
+            #    decode_responses=True
+            #)
             self.client = redis.Redis(
-                host=os.getenv("REDIS_HOST", "localhost"),
-                port=int(os.getenv("REDIS_PORT", 6379)),
-                db=int(os.getenv("REDIS_DB", 0))#,
-                #decode_responses=True
-            )
+	        host=os.getenv("REDIS_HOST", "localhost"),
+	        port=int(os.getenv("REDIS_PORT", 6379)),
+	        db=int(os.getenv("REDIS_DB", 0))
+	    )
 
     def set(self, key: str, value: Any, ex: Optional[int] = None):
         pickled = pickle.dumps(value)
