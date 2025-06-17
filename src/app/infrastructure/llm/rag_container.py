@@ -1,3 +1,4 @@
+import os
 from src.app.infrastructure.llm.chains import RAGChain
 
 # Agrega: se crea una real carpeta para guardar el vector store, 17-06-2025
