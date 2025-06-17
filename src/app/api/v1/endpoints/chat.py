@@ -1,4 +1,3 @@
-
 from pydantic import BaseModel
 from src.app.domain.chat.services import ChatService
 from fastapi import APIRouter
@@ -16,4 +15,5 @@ class ChatResponse(BaseModel):
 
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
+    # Remove the use_llm_fallback parameter if not needed
     return chat_service.get_response(request.message)
