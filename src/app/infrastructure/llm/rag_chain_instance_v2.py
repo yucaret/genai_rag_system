@@ -14,7 +14,7 @@ from src.app.infrastructure.llm.providers import OpenAIProvider # fallback LLM
 logger = logging.getLogger("genai")
 
 # agregamos 2025-06-19: agente para responder ruc
-RUC_RE = re.compile(r"\b\d{11}\b") # RUC peruano: tiene 11 dígitos
+RUC_RE = re.compile(r"\b\d{11}\b") # RUC peruano: tiene 11 dÃ­gitos
 agent = RAGAgent()
 llm_fb = OpenAIProvider()
 ##
@@ -35,7 +35,7 @@ def decide_path(state: RAGState) -> Dict[str, Any]:
     
     question = state.question.lower()
     
-    # agregamos 2025-06-19: ¿Contiene RUC?
+    # agregamos 2025-06-19: Â¿Contiene RUC?
     if "ruc" in question or RUC_RE.search(question):
         return {"next_node": "route_ruc"}
     ##
