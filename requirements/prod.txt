@@ -1,7 +1,6 @@
 fastapi==0.111.0
 uvicorn[standard]==0.29.0
 pydantic==2.7.4
-openai
 python-dotenv==1.0.1
 pydantic-settings==2.7.1
 pymupdf==1.23.7
@@ -10,9 +9,10 @@ numpy==1.26.4
 python-multipart==0.0.9
 tiktoken==0.7.0
 redis==5.0.1
-langgraph==0.4.8
 PyPDF2==3.0.1
 requests==2.31.0
-langchain-openai
-langchain
-langchain-community
+openai==1.88.0
+langgraph==0.4.8
+langchain==0.3.25
+langchain-openai==0.3.24
+langchain-community==0.3.25
