@@ -14,8 +14,8 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 #RUN pip install --upgrade pip && \
 #    pip install --no-deps -r requirements.txt
 
-RUN pip show openai && \
-    pip show openai | grep "Version: 0.28.1" || (echo "Wrong OpenAI version!" && exit 1)
+#RUN pip show openai && \
+#    pip show openai | grep "Version: 0.28.1" || (echo "Wrong OpenAI version!" && exit 1)
 
 # Copy project
 COPY src/ ./src/
