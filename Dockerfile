@@ -12,8 +12,7 @@ WORKDIR /app
 COPY requirements/prod.txt requirements.txt
 #RUN pip install --upgrade pip && pip install -r requirements.txt
 RUN pip install --upgrade pip && \
-    pip uninstall -y langchain-core langgraph-checkpoint langchain-community langchain-text-splitters || true && \
-    pip install -r requirements.txt
+    pip install --no-deps -r requirements.txt
 
 RUN pip show openai && \
     pip show openai | grep "Version: 0.28.1" || (echo "Wrong OpenAI version!" && exit 1)
