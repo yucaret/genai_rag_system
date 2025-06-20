@@ -1,7 +1,11 @@
 #from langchaiTOOLSn.agents import initialize_agent, AgentType
 from langchain.agents import initialize_agent, AgentType
 from src.app.infrastructure.tools import TOOLS
-from src.app.infrastructure.llm.providers import OpenAIProvider
+
+#from src.app.infrastructure.llm.providers import OpenAIProvider
+from langchain.chat_models import ChatOpenAI
+from config.settings import settings
+
 from src.app.infrastructure.vector_store.faiss import FaissStore
 from src.app.infrastructure.llm.adapters import EmbeddingAdapter
 import numpy as np
@@ -11,7 +15,12 @@ class RAGAgent:
         self.embedder = EmbeddingAdapter()
         self.vector_store = FaissStore(self.embedder, persistence_dir=vector_dir)
         #self.llm = OpenAIProvider().llm  # <<— obtenemos ChatOpenAI listo
-        self.llm = OpenAIProvider()
+        #self.llm = OpenAIProvider().llm  # <<— obtenemos ChatOpenAI listo
+        self.llm = ChatOpenAI(
+	        model=settings.openai_model,  # Ej: "gpt-3.5-turbo"
+	        temperature=0,
+	        openai_api_key=settings.openai_api_key
+        )
 
         self.agent = initialize_agent(
             tools=TOOLS,
