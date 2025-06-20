@@ -10,7 +10,8 @@ class RAGAgent:
     def __init__(self, vector_dir="vector_db"):
         self.embedder = EmbeddingAdapter()
         self.vector_store = FaissStore(self.embedder, persistence_dir=vector_dir)
-        self.llm = OpenAIProvider().llm  # <<— obtenemos ChatOpenAI listo
+        #self.llm = OpenAIProvider().llm  # <<— obtenemos ChatOpenAI listo
+        self.llm = OpenAIProvider()
 
         self.agent = initialize_agent(
             tools=TOOLS,
