@@ -2,9 +2,25 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.app.api.v1.endpoints import chat, documents, status, graph
 from src.app.utils.logging import init_logger
+##
+from importlib.metadata import version, PackageNotFoundError
+##
 
 logger = init_logger()
 logger.info("GenAI RAG System is starting...")
+
+##
+def log_package_versions():
+    packages = ["openai", "langchain", "langchain-openai", "langchain-community"]
+    for pkg in packages:
+        try:
+            v = version(pkg)
+            logger.info(f"{pkg} version: {v}")
+        except PackageNotFoundError:
+            logger.warning(f"{pkg} is not installed.")
+
+log_package_versions()
+##
 
 def create_app() -> FastAPI:
     app = FastAPI(
