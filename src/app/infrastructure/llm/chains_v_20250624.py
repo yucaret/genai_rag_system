@@ -10,9 +10,6 @@ from src.app.infrastructure.cache.redis import redis_client
 from collections import defaultdict
 import pickle  # Add this at the top of your chains.py file
 
-## agregar 24-06-2025: libreria de memoria, save_message
-from src.app.utils.memory import save_message
-
 
 import logging
 logger = logging.getLogger("genai")
@@ -292,12 +289,6 @@ class RAGChain:
                 Respuesta:"""
         
         answer = self.llm.chat_completion(prompt)
-        
-        # agregar 24-06-2025: guarda la informacion de consulta y respuesta
-        save_message("user", query)
-        save_message("assistant", answer)
-        ##
-        
         return {
             "answer": answer,
             "doc_id": doc_id
