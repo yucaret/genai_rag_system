@@ -294,6 +294,7 @@ class RAGChain:
         answer = self.llm.chat_completion(prompt)
         
         # agregar 24-06-2025: guarda la informacion de consulta y respuesta
+        print("chains.py --> Clases RAGChain --> _generate_response")
         save_message("user", query)
         save_message("assistant", answer)
         ##

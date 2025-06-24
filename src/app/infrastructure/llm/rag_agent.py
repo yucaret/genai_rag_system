@@ -49,6 +49,7 @@ class RAGAgent:
             answer = self.agent.run(question)
             
             # Agregar 24-06-2025: save_message user y assistant
+            print("rag_agent.py --> Clases RAGAgent --> run")
             save_message("user", question)
             save_message("assistant", answer)
             ##

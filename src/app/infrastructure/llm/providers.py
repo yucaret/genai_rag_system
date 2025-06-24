@@ -41,6 +41,7 @@ class OpenAIProvider:
         response = self.llm.invoke(messages)
         
         # 4. Guardar el mensaje del usuario y la respuesta
+        print("providers.py --> Clases OpenAIProvider --> chat_completion")
         save_message("user", prompt, DEFAULT_CHAT_ID)
         save_message("assistant", response.content, DEFAULT_CHAT_ID)
         
