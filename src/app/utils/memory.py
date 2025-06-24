@@ -12,11 +12,14 @@ MAX_HISTORY = 20
 def save_message(role: str, content: str, chat_id: str = DEFAULT_CHAT_ID):
     key = f"chat_memory:{chat_id}"
     history = get_history(chat_id)
+    
+    print(f"[Redis] Historia Anterior Guardada: {role} => {str(history)}")
+    
     history.append({"role": role, "content": content})
     history = history[-MAX_HISTORY:]
     r.set(key, json.dumps(history))
     
-    print(f"[Redis] Guardado: {role} => {content}")
+    print(f"[Redis] Agregado a Historial: {role} => {content}")
 
 def get_history(chat_id: str = DEFAULT_CHAT_ID):
     key = f"chat_memory:{chat_id}"
@@ -26,7 +29,8 @@ def get_history(chat_id: str = DEFAULT_CHAT_ID):
     
     if data:
         history = json.loads(data)
-        print(f"[Redis] Historial encontrado: {len(history)} mensajes")
+        print(f"[Redis] Historial Encontrado: {str(history)}")
+        print(f"[Redis] Historial Cantidad Encontrada: {len(history)} mensajes")
         
         return history
     
