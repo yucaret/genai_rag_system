@@ -15,7 +15,7 @@
         
 from langchain_openai import ChatOpenAI
 from config.settings import settings
--- agregar 24-06-2025: libreria de memoria
+## agregar 24-06-2025: libreria de memoria
 from src.app.infrastructure.llm.memory import save_message, get_history, DEFAULT_CHAT_ID
 
 class OpenAIProvider:
