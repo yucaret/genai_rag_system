@@ -129,14 +129,7 @@ class FaissStore:
             if idx == -1:  # FAISS returns -1 for invalid indices
                 continue
             try:
-                # modificado 2025-06-25: Se agrega el score
-                #results.append(self.documents[idx])
-                
-                doc = self.documents[idx].copy()
-                doc["score"] = float(1 / (1 + distances[0][i]))  # el score inversamente proporcional a distancia
-                results.append(doc)
-                
-                ##
+                results.append(self.documents[idx])
             except IndexError:
                 logger.warning(f"Invalid index {idx} returned from FAISS")
                 continue
