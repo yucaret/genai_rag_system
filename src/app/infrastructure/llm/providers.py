@@ -32,6 +32,7 @@ class OpenAIProvider:
     #    return response.content
     def chat_completion(self, prompt: str) -> str:
         # 1. Obtener historial de mensajes pasados
+        print("providers.py --> Clases OpenAIProvider --> chat_completion --> get_history")
         messages = get_history(DEFAULT_CHAT_ID)
         
         # 2. Agregar el nuevo mensaje del usuario
@@ -41,7 +42,7 @@ class OpenAIProvider:
         response = self.llm.invoke(messages)
         
         # 4. Guardar el mensaje del usuario y la respuesta
-        print("providers.py --> Clases OpenAIProvider --> chat_completion")
+        print("providers.py --> Clases OpenAIProvider --> chat_completion --> save_message")
         save_message("user", prompt, DEFAULT_CHAT_ID)
         save_message("assistant", response.content, DEFAULT_CHAT_ID)
         
