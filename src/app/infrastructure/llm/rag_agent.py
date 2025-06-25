@@ -21,9 +21,9 @@ class RAGAgent:
         
         # Modificar 24-06-2025: Modificar llm
         #self.llm = ChatOpenAI(
-	#        model=settings.openai_model,  # Ej: "gpt-3.5-turbo"
-	#        temperature=0,
-	#        openai_api_key=settings.openai_api_key
+        #        model=settings.openai_model,  # Ej: "gpt-3.5-turbo"
+        #        temperature=0,
+        #        openai_api_key=settings.openai_api_key
         #)
         self.llm = OpenAIProvider()
         ##
@@ -36,19 +36,19 @@ class RAGAgent:
         #    verbose=True,
         #)
         self.agent = initialize_agent(
-	    tools=TOOLS,
-	    llm=self.llm.llm,
-	    agent=AgentType.OPENAI_FUNCTIONS,
-	    verbose=True,
-	)
-	##
+            tools=TOOLS,
+            llm=self.llm.llm,
+            agent=AgentType.OPENAI_FUNCTIONS,
+            verbose=True,
+        )
+        ##
 
     def run(self, question: str) -> str:
         # 1) Pregunta directo al agente.  Si él necesita la vector-db, la tool, etc.
         try:
             # Agregar 24-06-2025: obtener historia y agregar la nueva consulta
             history = get_history(DEFAULT_CHAT_ID)
-	    history.append({"role": "user", "content": question})
+            history.append({"role": "user", "content": question})
             ##
             
             # Modificar 24-06-2025: 
