@@ -15,6 +15,9 @@ def consultar_datos_ruc(ruc: str) -> dict:
     será acompañado de la palabra 'RUC' o 'ruc', esta herramienta Devuelve la ficha SUNAT de un número de RUC o ruc
     peruano, ojo que la palabra RUC puede venir en mayuscula (RUC) y minuscula (ruc) o como Ruc o ruC, ojo.
     """
+    
+    print("ruc.py --> def consultar_datos_ruc")
+    
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
         "Content-Type": "application/json",
