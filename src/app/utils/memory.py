@@ -13,28 +13,29 @@ def save_message(role: str, content: str, chat_id: str = DEFAULT_CHAT_ID):
     key = f"chat_memory:{chat_id}"
     history = get_history(chat_id)
     
-    print(f"[Redis] Historia Anterior Guardada: {role} => {str(history)}")
+    #print(f"[Redis] --> save_message --> Historia Anterior Guardada: {role} => {str(history)}")
+    print(f"[Redis] --> save_message --> Historia Cantidad Anterior Guardada: {len(history)} mensajes")
     
     history.append({"role": role, "content": content})
     history = history[-MAX_HISTORY:]
     r.set(key, json.dumps(history))
     
-    print(f"[Redis] Agregado a Historial: {role} => {content}")
+    print(f"[Redis] --> save_message --> Agregado a Historial: {role} => {content}")
 
 def get_history(chat_id: str = DEFAULT_CHAT_ID):
     key = f"chat_memory:{chat_id}"
     data = r.get(key)
     
-    print(f"[Redis] Cargando historial para: {chat_id}")
+    print(f"[Redis] --> get_history --> Cargando historial para: {chat_id}")
     
     if data:
         history = json.loads(data)
-        print(f"[Redis] Historial Encontrado: {str(history)}")
-        print(f"[Redis] Historial Cantidad Encontrada: {len(history)} mensajes")
+        #print(f"[Redis] --> get_history --> Historial Encontrado: {str(history)}")
+        print(f"[Redis] --> get_history --> Historial Cantidad Encontrada: {len(history)} mensajes")
         
         return history
     
-    print("[Redis] No hay historial previo.")
+    print("[Redis] --> get_history --> No hay historial previo.")
     
     return []
 
