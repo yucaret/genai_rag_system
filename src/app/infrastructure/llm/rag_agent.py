@@ -11,7 +11,7 @@ from src.app.infrastructure.llm.providers import OpenAIProvider
 ##
 
 # Agregar 24-06-2025: save_message
-from src.app.utils.memory import save_message
+from src.app.utils.memory import save_message, get_history, DEFAULT_CHAT_ID
 ##
 
 class RAGAgent:
