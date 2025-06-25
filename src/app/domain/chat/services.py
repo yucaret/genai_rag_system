@@ -11,6 +11,7 @@ class ChatService:
 
     def get_response(self, user_input: str) -> dict:
         try:
+            print("services.py --> class ChatService --> def get_response")
             # Try RAG first
             result = run_rag_with_langgraph(user_input)
             
