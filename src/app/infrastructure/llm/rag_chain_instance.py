@@ -36,9 +36,16 @@ def decide_path(state: RAGState) -> Dict[str, Any]:
     
     question = state.question.lower()
     
-    # agregamos 2025-06-19: ¿Contiene RUC?
-    if "ruc" in question or RUC_RE.search(question):
+    # modificamos 2025-06-25
+    ## agregamos 2025-06-19: ¿Contiene RUC?
+    #if "ruc" in question or RUC_RE.search(question):
+    #    return {"next_node": "route_ruc"}
+    # Si contiene un número de 11 dígitos, claramente es un RUC
+    if RUC_RE.search(question):
         return {"next_node": "route_ruc"}
+    # Si menciona ruc, pero NO da un número → probablemente quiere que use memoria
+    if "ruc" in question:
+        return {"search_section": "all", "next_node": "route_all"}
     ##
     
     if "resumen" in question or "executivo" in question:
