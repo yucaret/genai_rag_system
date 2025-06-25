@@ -16,7 +16,7 @@ class ChatService:
             result = run_rag_with_langgraph(user_input)
             
             # If RAG found results
-            if result['doc_id'] not in ['none', 'error']:
+            if result['doc_id'] not in ['none', 'error', 'unknown']:
                 return {
                     "response": f"{result['answer']} (📄 Fuente: {result['doc_id']})",
                     "timestamp": datetime.now(timezone.utc).isoformat()
