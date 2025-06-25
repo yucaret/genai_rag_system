@@ -46,7 +46,15 @@ class RAGAgent:
     def run(self, question: str) -> str:
         # 1) Pregunta directo al agente.  Si él necesita la vector-db, la tool, etc.
         try:
-            answer = self.agent.run(question)
+            # Agregar 24-06-2025: obtener historia y agregar la nueva consulta
+            history = get_history(DEFAULT_CHAT_ID)
+	    history.append({"role": "user", "content": question})
+            ##
+            
+            # Modificar 24-06-2025: 
+            #answer = self.agent.run(question)
+            response = self.agent.invoke(history)
+            answer = response["output"]
             
             # Agregar 24-06-2025: save_message user y assistant
             print("rag_agent.py --> Clases RAGAgent --> run")
@@ -58,8 +66,10 @@ class RAGAgent:
             
         except Exception:
             # 2) fallback manual a búsqueda vectorial (opcional)
+            print(f"ERROR rag_agent.py --> Clases RAGAgent --> run: {e}")
             q_emb = np.array([self.embedder.get_embedding(question)], dtype=np.float32)
             docs = self.vector_store.search(q_emb, top_k=5)
             context = "\n".join(d["text"] for d in docs)
             prompt = f"Contexto:\n{context}\n\nPregunta: {question}\nRespuesta:"
+            
             return OpenAIProvider().chat_completion(prompt)
