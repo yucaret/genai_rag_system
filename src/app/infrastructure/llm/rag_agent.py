@@ -46,6 +46,8 @@ class RAGAgent:
     def run(self, question: str) -> str:
         # 1) Pregunta directo al agente.  Si él necesita la vector-db, la tool, etc.
         try:
+            print("rag_agent.py --> class RAGAgent --> def run")
+            
             # Agregar 24-06-2025: obtener historia y agregar la nueva consulta
             history = get_history(DEFAULT_CHAT_ID)
             history.append({"role": "user", "content": question})
@@ -57,14 +59,13 @@ class RAGAgent:
             answer = response["output"]
             
             # Agregar 24-06-2025: save_message user y assistant
-            print("rag_agent.py --> Clases RAGAgent --> run")
             save_message("user", question)
             save_message("assistant", answer)
             ##
             
             return answer
             
-        except Exception:
+        except Exception as e:
             # 2) fallback manual a búsqueda vectorial (opcional)
             print(f"ERROR rag_agent.py --> Clases RAGAgent --> run: {e}")
             q_emb = np.array([self.embedder.get_embedding(question)], dtype=np.float32)
