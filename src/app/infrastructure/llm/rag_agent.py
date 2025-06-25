@@ -43,14 +43,17 @@ class RAGAgent:
         )
         ##
 
-    def run(self, question: str) -> str:
+    def run(self, question: str, use_history: bool = True) -> str:
         # 1) Pregunta directo al agente.  Si él necesita la vector-db, la tool, etc.
         try:
             print("rag_agent.py --> class RAGAgent --> def run")
             
             # Agregar 24-06-2025: obtener historia y agregar la nueva consulta
-            history = get_history(DEFAULT_CHAT_ID)
-            history.append({"role": "user", "content": question})
+            if use_history:
+                history = get_history(DEFAULT_CHAT_ID)
+                history.append({"role": "user", "content": question})
+            else:
+                history = [{"role": "user", "content": question}]
             ##
             
             # Modificar 24-06-2025: 

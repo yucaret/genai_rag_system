@@ -84,7 +84,11 @@ def query_llm(state: RAGState) -> Dict[str, Any]:
 def query_ruc(state: RAGState) -> Dict[str, Any]:
     print("rag_chain_instance.py --> def query_ruc")
     try:
-        answer = agent.run(state.question)
+        ## modificado 2025-06-25; que no lea historia
+        #answer = agent.run(state.question)
+        answer = agent.run(state.question, use_history=False)
+        ##
+        
         return {"answer": answer, "used_doc": "api_ruc", "next_node": END}
     except Exception as e:
         logger.error(f"Agent RUC error: {e}")
