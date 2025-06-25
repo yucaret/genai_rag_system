@@ -16,5 +16,5 @@ class ChatResponse(BaseModel):
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
     # Remove the use_llm_fallback parameter if not needed
-    print("chat.py --> def chat --> mensaje recibido desde frontend: " + str(request.message))
+    print("chat.py --> def chat --> mensaje recibido desde frontend: **" + repr(request.message) + "**")
     return chat_service.get_response(request.message)
