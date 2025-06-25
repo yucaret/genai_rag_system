@@ -32,7 +32,6 @@ graph = StateGraph(RAGState)
 
 # === Decision Node ===
 def decide_path(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def decide_path")
     
     question = state.question.lower()
     
@@ -50,26 +49,21 @@ def decide_path(state: RAGState) -> Dict[str, Any]:
 
 # === Routing Nodes ===
 def route_summary(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def route_summary")
     return {"next_node": "query_llm"}
 
 def route_annex(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def route_annex")
     return {"next_node": "query_llm"}
 
 def route_all(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def route_all")
     return {"next_node": "query_llm"}
 
 # agregamos 2025-06-19: Route ruc
 def route_ruc(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def route_ruc")
     return {"next_node": "query_ruc"}
 ##
 
 # === Final query node ===
 def query_llm(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def query_llm")
     response = rag_chain.run(
         query=state.question,
         section=state.search_section
@@ -82,7 +76,6 @@ def query_llm(state: RAGState) -> Dict[str, Any]:
 
 # agregamos 2025-06-19: query de ruc
 def query_ruc(state: RAGState) -> Dict[str, Any]:
-    print("rag_chain_instance.py --> def query_ruc")
     try:
         answer = agent.run(state.question)
         return {"answer": answer, "used_doc": "api_ruc", "next_node": END}
@@ -94,7 +87,6 @@ def query_ruc(state: RAGState) -> Dict[str, Any]:
 
 # === LangGraph Definition ===
 def build_rag_langgraph():
-    print("rag_chain_instance.py --> def build_rag_langgraph")
     graph = StateGraph(RAGState)
     
     # Add nodes
@@ -150,7 +142,6 @@ def build_rag_langgraph():
 
 # === Run LangGraph ===
 def run_rag_with_langgraph(question: str, use_cache=False) -> Dict[str, str]:
-    print("rag_chain_instance.py --> def run_rag_with_langgraph")
     
     rag_flow = build_rag_langgraph()
     
