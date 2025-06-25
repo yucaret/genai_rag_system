@@ -125,7 +125,10 @@ class FaissStore:
         distances, indices = self.index.search(query_embedding, top_k)
         results = []
         
-        for idx in indices[0]:
+        # modificado 2025-06-25: Se agrega el score
+        #for idx in indices[0]:
+        for i, idx in enumerate(indices[0]):
+        ##
             if idx == -1:  # FAISS returns -1 for invalid indices
                 continue
             try:
