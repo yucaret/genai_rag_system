@@ -152,8 +152,6 @@ class RAGChain:
                 "source": "llm_error"
             }
 
-    
-    
     # def run(self, query: str, section: str = "all", use_cache: bool = True) -> dict:
     #     try:
     #         # Generate query embedding
@@ -303,6 +301,3 @@ class RAGChain:
             "answer": answer,
             "doc_id": doc_id
         }
-            
-
-
