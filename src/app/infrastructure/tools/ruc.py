@@ -9,11 +9,11 @@ API_TOKEN = os.getenv("APIPERU_TOKEN")
 def consultar_datos_ruc(ruc: str) -> dict:
     #"""Devuelve la ficha SUNAT de un número de RUC peruano."""
     """
-    Usa esta herramienta cuando el usuario te proporcione un número de RUC peruano (11 digitos)
+    Usa esta herramienta cuando el usuario te proporcione un número de RUC o ruc peruano (11 digitos)
     y te pida data, datos o información como nombre o razón social, estado, condición, dirección o datos
     registrados en SUNAT. El número puede estar en medio del texto o al final, y no necesariamente
-    será acompañado de la palabra 'RUC', esta herramienta Devuelve la ficha SUNAT de un número de RUC
-    peruano.
+    será acompañado de la palabra 'RUC' o 'ruc', esta herramienta Devuelve la ficha SUNAT de un número de RUC o ruc
+    peruano, ojo que la palabra RUC puede venir en mayuscula (RUC) y minuscula (ruc) o como Ruc o ruC, ojo.
     """
     headers = {
         "Authorization": f"Bearer {API_TOKEN}",
