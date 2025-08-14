@@ -1,7 +1,9 @@
 import os, requests
 from langchain.tools import tool
 
-API_URL   = "https://apiperu.dev/api/ruc_sunat"
+#API_URL   = "https://apiperu.dev/api/ruc_sunat"
+API_URL   = "https://apiperu.dev/api/ruc"
+
 #token para colocarlo en redis
 API_TOKEN = os.getenv("APIPERU_TOKEN")
 
